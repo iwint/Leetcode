@@ -1,4 +1,5 @@
 import Easy.FirstOccurance;
+import Easy.FizzBuzz;
 import Easy.MajorityElement;
 import Easy.ValidAnagram;
 
@@ -15,5 +16,8 @@ public class Main {
 
         MajorityElement majorityElement = new MajorityElement();
         System.out.println(majorityElement.majorityElement(new int[]{3,2,3}));
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        System.out.println(fizzBuzz.fizzBuzz(15));
     }
 }
