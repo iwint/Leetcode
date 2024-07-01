@@ -1,7 +1,4 @@
-import Easy.FirstOccurance;
-import Easy.FizzBuzz;
-import Easy.MajorityElement;
-import Easy.ValidAnagram;
+import Easy.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +16,9 @@ public class Main {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
         System.out.println(fizzBuzz.fizzBuzz(15));
+
+        MaxProfit maxProfit = new MaxProfit();
+        System.out.println(maxProfit.maxProfit(new int[]{7,1,5,3,6,4}));
+
     }
 }
