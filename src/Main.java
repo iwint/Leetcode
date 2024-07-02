@@ -20,5 +20,8 @@ public class Main {
         MaxProfit maxProfit = new MaxProfit();
         System.out.println(maxProfit.maxProfit(new int[]{7,1,5,3,6,4}));
 
+        HappyNumber happyNumber = new HappyNumber();
+        System.out.println(happyNumber.isHappy(7));
+
     }
 }
