@@ -23,5 +23,9 @@ public class Main {
         HappyNumber happyNumber = new HappyNumber();
         System.out.println(happyNumber.isHappy(7));
 
+        IsomorphicString isomorphicString = new IsomorphicString();
+        System.out.println(isomorphicString.isIsomorphic("foo","bar"));
+        System.out.println(isomorphicString.isIsomorphic("paper","title"));
+
     }
 }
