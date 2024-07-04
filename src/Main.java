@@ -27,5 +27,8 @@ public class Main {
         System.out.println(isomorphicString.isIsomorphic("foo","bar"));
         System.out.println(isomorphicString.isIsomorphic("paper","title"));
 
+        AddDigit addDigit = new AddDigit();
+        System.out.println(addDigit.addDigits(1239));
+
     }
 }
