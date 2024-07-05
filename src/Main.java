@@ -1,5 +1,8 @@
 import Easy.*;
 import Zoho.DiamondPattern;
+import Zoho.DistinctDigits;
+import Zoho.GetDuplicates;
+import Zoho.SingleNumerII;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,6 +36,17 @@ public class Main {
 
         DiamondPattern diamondPattern = new DiamondPattern();
         diamondPattern.dramDiamond(10);
+
+        DistinctDigits distinctDigits = new DistinctDigits();
+        distinctDigits.getDistinctDigits(new int[]{111, 222, 333, 4444, 666});
+        System.out.println();
+        GetDuplicates getDuplicates = new GetDuplicates();
+        getDuplicates.getDuplicates(new int[]{0,3,1,2,2});
+
+        System.out.println();
+
+        SingleNumerII singleNumerII = new SingleNumerII();
+        System.out.println(singleNumerII.singleNumber(new int[]{0,1,0,1,0,1,99}));
 
     }
 }
