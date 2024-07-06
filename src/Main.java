@@ -1,4 +1,5 @@
 import Easy.*;
+import Others.SecondLargestNumber;
 import Zoho.DiamondPattern;
 import Zoho.DistinctDigits;
 import Zoho.GetDuplicates;
@@ -47,6 +48,12 @@ public class Main {
 
         SingleNumerII singleNumerII = new SingleNumerII();
         System.out.println(singleNumerII.singleNumber(new int[]{0,1,0,1,0,1,99}));
+
+        SecondLargestNumber secondLargestNumber = new SecondLargestNumber();
+        System.out.println(secondLargestNumber.getSecondLargestNumber(new int[]{1,2,3}));
+
+        MaximumProduct maximumProduct = new MaximumProduct();
+        System.out.println(maximumProduct.maximumProduct(new int[]{-100,-98,-1,2,3,4}));
 
     }
 }
