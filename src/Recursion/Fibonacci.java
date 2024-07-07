@@ -11,5 +11,4 @@ public class Fibonacci {
         return getNthTerm(n - 1) + getNthTerm(n - 2);
     }
 
-
 }

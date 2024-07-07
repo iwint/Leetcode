@@ -1,9 +1,6 @@
 import Easy.*;
 import Others.SecondLargestNumber;
-import Zoho.DiamondPattern;
-import Zoho.DistinctDigits;
-import Zoho.GetDuplicates;
-import Zoho.SingleNumerII;
+import Zoho.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -54,6 +51,9 @@ public class Main {
 
         MaximumProduct maximumProduct = new MaximumProduct();
         System.out.println(maximumProduct.maximumProduct(new int[]{-100,-98,-1,2,3,4}));
+
+        NearbyDuplicate nearbyDuplicate = new NearbyDuplicate();
+        System.out.println(nearbyDuplicate.containsNearbyDuplicate(new int[]{1,0,1,1},1));
 
     }
 }
