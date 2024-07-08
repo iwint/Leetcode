@@ -39,21 +39,24 @@ public class Main {
         distinctDigits.getDistinctDigits(new int[]{111, 222, 333, 4444, 666});
         System.out.println();
         GetDuplicates getDuplicates = new GetDuplicates();
-        getDuplicates.getDuplicates(new int[]{0,3,1,2,2});
+        getDuplicates.getDuplicates(new int[]{0, 3, 1, 2, 2});
 
         System.out.println();
 
         SingleNumerII singleNumerII = new SingleNumerII();
-        System.out.println(singleNumerII.singleNumber(new int[]{0,1,0,1,0,1,99}));
+        System.out.println(singleNumerII.singleNumber(new int[]{0, 1, 0, 1, 0, 1, 99}));
 
         SecondLargestNumber secondLargestNumber = new SecondLargestNumber();
-        System.out.println(secondLargestNumber.getSecondLargestNumber(new int[]{1,2,3}));
+        System.out.println(secondLargestNumber.getSecondLargestNumber(new int[]{1, 2, 3}));
 
         MaximumProduct maximumProduct = new MaximumProduct();
-        System.out.println(maximumProduct.maximumProduct(new int[]{-100,-98,-1,2,3,4}));
+        System.out.println(maximumProduct.maximumProduct(new int[]{-100, -98, -1, 2, 3, 4}));
 
         NearbyDuplicate nearbyDuplicate = new NearbyDuplicate();
-        System.out.println(nearbyDuplicate.containsNearbyDuplicate(new int[]{1,0,1,1},1));
+        System.out.println(nearbyDuplicate.containsNearbyDuplicate(new int[]{1, 0, 1, 1}, 1));
+
+        MostCommonWord mostCommonWord = new MostCommonWord();
+        System.out.println(mostCommonWord.getMostCommonWord("Bob. hIt, baLl", new String[]{"bob","hit"}));
 
     }
 }
