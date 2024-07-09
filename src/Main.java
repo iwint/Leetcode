@@ -58,5 +58,9 @@ public class Main {
         MostCommonWord mostCommonWord = new MostCommonWord();
         System.out.println(mostCommonWord.getMostCommonWord("Bob. hIt, baLl", new String[]{"bob","hit"}));
 
+        PowerOfTwo powerOfTwo = new PowerOfTwo();
+        boolean res = powerOfTwo.isPowerOfTwo(6);
+        System.out.println(res);
+
     }
 }
