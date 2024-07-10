@@ -62,5 +62,8 @@ public class Main {
         boolean res = powerOfTwo.isPowerOfTwo(6);
         System.out.println(res);
 
+        MinimumNumberOfMovesToConvertString minimumNumberOfMovesToConvertString = new MinimumNumberOfMovesToConvertString();
+        System.out.println(minimumNumberOfMovesToConvertString.minimumMoves("XXX"));
+
     }
 }
