@@ -1,4 +1,5 @@
 import Easy.*;
+import Medium.PowerOfN;
 import Others.SecondLargestNumber;
 import Zoho.*;
 
@@ -64,6 +65,9 @@ public class Main {
 
         MinimumNumberOfMovesToConvertString minimumNumberOfMovesToConvertString = new MinimumNumberOfMovesToConvertString();
         System.out.println(minimumNumberOfMovesToConvertString.minimumMoves("XXX"));
+
+        PowerOfN powerOfN = new PowerOfN();
+        System.out.println(powerOfN.myPow(10,2));
 
     }
 }
