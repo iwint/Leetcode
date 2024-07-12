@@ -69,5 +69,8 @@ public class Main {
         PowerOfN powerOfN = new PowerOfN();
         System.out.println(powerOfN.myPow(10,2));
 
+        MissingNumber missingNumber = new MissingNumber();
+        System.out.println(missingNumber.missingNumber(new int[]{1}));
+
     }
 }
