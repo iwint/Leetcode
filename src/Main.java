@@ -72,5 +72,8 @@ public class Main {
         MissingNumber missingNumber = new MissingNumber();
         System.out.println(missingNumber.missingNumber(new int[]{1}));
 
+        ReverseString reverseString = new ReverseString();
+        reverseString.reverseString(new char[]{'h','e','l','l','o'});
+
     }
 }
