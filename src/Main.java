@@ -75,5 +75,8 @@ public class Main {
         ReverseString reverseString = new ReverseString();
         reverseString.reverseString(new char[]{'h','e','l','l','o'});
 
+        PowerOfFour powerOfFour = new PowerOfFour();
+        System.out.println(powerOfFour.isPowerOfFour(5));
+
     }
 }
