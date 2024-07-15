@@ -1,5 +1,6 @@
 import Easy.*;
 import Medium.PowerOfN;
+import Medium.ReverseInteger;
 import Others.SecondLargestNumber;
 import Zoho.*;
 
@@ -77,6 +78,9 @@ public class Main {
 
         PowerOfFour powerOfFour = new PowerOfFour();
         System.out.println(powerOfFour.isPowerOfFour(5));
+
+        ReverseInteger reverseInteger = new ReverseInteger();
+        System.out.println(reverseInteger.reverse(-123));
 
     }
 }
