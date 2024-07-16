@@ -82,5 +82,8 @@ public class Main {
         ReverseInteger reverseInteger = new ReverseInteger();
         System.out.println(reverseInteger.reverse(-123));
 
+        RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
+        System.out.println(removeDuplicatesFromSortedArray.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+
     }
 }
