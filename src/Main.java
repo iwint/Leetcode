@@ -85,5 +85,8 @@ public class Main {
         RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
         System.out.println(removeDuplicatesFromSortedArray.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
 
+        MergeSortedArray mergeSortedArray = new MergeSortedArray();
+        mergeSortedArray.merge(new int[]{1,2,3,0,0,0},3,new int[]{2,5,6},3);
+
     }
 }
