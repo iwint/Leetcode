@@ -88,5 +88,8 @@ public class Main {
         MergeSortedArray mergeSortedArray = new MergeSortedArray();
         mergeSortedArray.merge(new int[]{1,2,3,0,0,0},3,new int[]{2,5,6},3);
 
+        RemoveElement removeElement =new RemoveElement();
+        System.out.println(removeElement.removeElement(new int[]{0,1,2,2,3,0,4,2},2));
+
     }
 }
