@@ -91,5 +91,8 @@ public class Main {
         RemoveElement removeElement =new RemoveElement();
         System.out.println(removeElement.removeElement(new int[]{0,1,2,2,3,0,4,2},2));
 
+        ThirdMaximumNumber thirdMaximumNumber = new ThirdMaximumNumber();
+        System.out.println(thirdMaximumNumber.thirdMax(new int[]{5,2,2}));
+
     }
 }
