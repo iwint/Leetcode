@@ -16,5 +16,3 @@ public class ContainsDuplicate {
        System.out.println(this.hasDuplicate(nums));
     }
 }
-
-

@@ -7,12 +7,12 @@ import Past.Others.SecondLargestNumber;
 import Past.Zoho.*;
 
 public class Main {
+
     public static void main(String[] args) {
 
         FirstOccurance firstOccurance = new FirstOccurance();
         int index = firstOccurance.strStr("sadbutsad", "sad");
         System.out.println(index);
-
 
         ValidAnagram validAnagram = new ValidAnagram();
         System.out.println(validAnagram.isAnagram("rat", "car"));
@@ -60,7 +60,7 @@ public class Main {
         System.out.println(nearbyDuplicate.containsNearbyDuplicate(new int[]{1, 0, 1, 1}, 1));
 
         MostCommonWord mostCommonWord = new MostCommonWord();
-        System.out.println(mostCommonWord.getMostCommonWord("Bob. hIt, baLl", new String[]{"bob","hit"}));
+        System.out.println(mostCommonWord.getMostCommonWord("Bob. hIt, baLl", new String[]{"bob", "hit"}));
 
         PowerOfTwo powerOfTwo = new PowerOfTwo();
         boolean res = powerOfTwo.isPowerOfTwo(6);
@@ -70,13 +70,13 @@ public class Main {
         System.out.println(minimumNumberOfMovesToConvertString.minimumMoves("XXX"));
 
         PowerOfN powerOfN = new PowerOfN();
-        System.out.println(powerOfN.myPow(10,2));
+        System.out.println(powerOfN.myPow(10, 2));
 
         MissingNumber missingNumber = new MissingNumber();
         System.out.println(missingNumber.missingNumber(new int[]{1}));
 
         ReverseString reverseString = new ReverseString();
-        reverseString.reverseString(new char[]{'h','e','l','l','o'});
+        reverseString.reverseString(new char[]{'h', 'e', 'l', 'l', 'o'});
 
         PowerOfFour powerOfFour = new PowerOfFour();
         System.out.println(powerOfFour.isPowerOfFour(5));
@@ -85,16 +85,16 @@ public class Main {
         System.out.println(reverseInteger.reverse(-123));
 
         RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
-        System.out.println(removeDuplicatesFromSortedArray.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+        System.out.println(removeDuplicatesFromSortedArray.removeDuplicates(new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}));
 
         MergeSortedArray mergeSortedArray = new MergeSortedArray();
-        mergeSortedArray.merge(new int[]{1,2,3,0,0,0},3,new int[]{2,5,6},3);
+        mergeSortedArray.merge(new int[]{1, 2, 3, 0, 0, 0}, 3, new int[]{2, 5, 6}, 3);
 
-        RemoveElement removeElement =new RemoveElement();
-        System.out.println(removeElement.removeElement(new int[]{0,1,2,2,3,0,4,2},2));
+        RemoveElement removeElement = new RemoveElement();
+        System.out.println(removeElement.removeElement(new int[]{0, 1, 2, 2, 3, 0, 4, 2}, 2));
 
         ThirdMaximumNumber thirdMaximumNumber = new ThirdMaximumNumber();
-        System.out.println(thirdMaximumNumber.thirdMax(new int[]{5,2,2}));
+        System.out.println(thirdMaximumNumber.thirdMax(new int[]{5, 2, 2}));
 
     }
 }
