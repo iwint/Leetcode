@@ -18,19 +18,20 @@ public class MaxProfit {
         return max;
     }
 
-    public int dpTabularMethod(int[] prices) {
-        int[] profits = new int[prices.length];
+    // Tried
+    public int dpMethod(int[] prices) {
 
-        profits[0] = 0;
+        int buyPrice = prices[0];
+        int profit = 0;
 
-        System.out.println(Arrays.toString(prices));
-
-        for (int i = 0; i < prices.length - 1; i++) {
-            profits[i] = prices[i+1] - prices[i];
+        for (int i = 1; i < prices.length; i++) {
+            if(prices[i] < buyPrice) {
+                buyPrice = prices[i];
+            }else{
+                profit = Math.max(profit,  prices[i] - buyPrice);
+            }
         }
 
-        System.out.println(Arrays.toString(profits));
-
-        return 0;
+        return profit;
     }
 }

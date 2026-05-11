@@ -5,6 +5,6 @@ public class Main {
 //        Fibno fibSeries = new Fibno();
 //        System.out.println(fibSeries.tabulationMethodFib(5));
         MaxProfit maxProfitClass = new MaxProfit();
-        System.out.println(maxProfitClass.dpTabularMethod(new int[]{7, 1, 5, 3, 6, 4}));
+        System.out.println(maxProfitClass.dpMethod(new int[]{7, 1, 5, 3, 6, 4}));
     }
 }
