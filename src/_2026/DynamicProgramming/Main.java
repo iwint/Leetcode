@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 //        Fibno fibSeries = new Fibno();
 //        System.out.println(fibSeries.tabulationMethodFib(5));
-        MaxProfit maxProfitClass = new MaxProfit();
-        System.out.println(maxProfitClass.dpMethod(new int[]{7, 1, 5, 3, 6, 4}));
+        DP_Problems dpProblems = new DP_Problems();
+        System.out.println(dpProblems.getRow(6));
     }
 }
