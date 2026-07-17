@@ -1,4 +1,4 @@
-package _2026.TwoPointers;
+package _2026.Java.TwoPointers;
 
 import java.util.Scanner;
 
