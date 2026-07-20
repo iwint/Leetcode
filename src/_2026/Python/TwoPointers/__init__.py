@@ -1,4 +1,5 @@
 from Python.TwoPointers.first_occurance import find_first_occurrence
+from Python.TwoPointers.happy_number import is_happy_number
 from Python.TwoPointers.merge_arrays import merge_arrays
 from Python.TwoPointers.remove_element import remove_element
 from Python.TwoPointers.valid_palindrome import is_valid_palindrome
@@ -53,5 +54,7 @@ n = len(nums2)
 # print(merge_arrays(nums1, m, nums2, n))
 
 val = "2BaB2"
-print(is_valid_palindrome(val))
+# print(is_valid_palindrome(val))
 
+number = 19
+print("Happy Number ", is_happy_number(number))
