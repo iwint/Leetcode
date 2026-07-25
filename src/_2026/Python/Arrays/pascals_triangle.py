@@ -1,14 +1,15 @@
-def generate(num_rows: int) -> list[list[int]]:
-    d: list[list[int]] = [[] for _ in range(num_rows)]
-
-    for i in range(1, num_rows + 1):
-        row = i - 1
-        for col in range(0, i):
-            if col == 0 or col == row:
-                d[row].insert(col, 1)
+def generate(num_rows: int) -> list[int]:
+    rows = []
+    for i in range(num_rows + 1):
+        cols = []
+        for col in range(0, i + 1):
+            if col == 0 or col == i:
+                cols.append(1)
             else:
-                d[row].insert(col, d[row - 1][col - 1] + d[row - 1][col + 1 - 1])
-    return d
+                cols.append(rows[-1][col - 1] + rows[-1][col])
+        rows.append(cols)
+    return rows
+    # return rows[-1]
 
 
-print(generate(5))
+print(generate(6))
