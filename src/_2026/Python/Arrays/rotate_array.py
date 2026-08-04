@@ -11,7 +11,7 @@ def rotate_array(nums: list[int], k: int) -> None:
     #     nums.append(temp)
     #
     # nums.reverse()
-    print(nums)
+    print(nums[0])
 
 
 rotate_array([-1, -100, 3, 99], 2)
