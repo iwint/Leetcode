@@ -42,4 +42,5 @@ def merge(arr: list[int], left: int, mid: int, right: int):
 if __name__ == "__main__":
     arr = [38, 27, 43, 3, 9, 82, 10]
     merge_sort(arr, 0, len(arr) - 1)
+    # practiced sorting
     print(arr)
