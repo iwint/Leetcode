@@ -4,33 +4,29 @@ arr = [2, 4, 1, 3, 2, 3]
 def quick_sort(l: int, h: int):
     if l < h:
         partition_index = partition(l, h)
-        print(partition_index)
         quick_sort(l, partition_index)
         quick_sort(partition_index + 1, h)
 
+
 def partition(l: int, h: int) -> int:
     pivot = arr[l]
-    i = l + 1
-    j = h
+    i = l - 1
+    j = h + 1
 
-    while i < j:
-
+    while True:
+        i +=1
         while arr[i] < pivot:
             i += 1
 
+        j -=1
         while arr[j] > pivot:
             j -= 1
 
-        if arr[i] > arr[j]:
-            temp = arr[j]
-            arr[j] = arr[i]
-            arr[i] = temp
+        if i >= j:
+           return j
 
-    temp = arr[j]
-    arr[j] = pivot
-    arr[l] = temp
+        arr[i], arr[j] = arr[j], arr[i]
 
-    return j
 
 
 quick_sort(0, len(arr) - 1)
