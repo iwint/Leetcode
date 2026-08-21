@@ -14,7 +14,7 @@ def bubble_sort(nums: list[int]) -> list[int]:
         if swapped == False:
             return nums
 
-    return nums
+    return  nums
 
 
 print(bubble_sort([1, 4, 0, 2, 5, 6]))
