@@ -1,4 +1,4 @@
-from typing import Optional--++
+from typing import Optional
 
 
 
@@ -20,8 +20,8 @@ def sort_list(head: Optional[ListNode]) -> int:
     while temp is not None:
         temp = temp.next
         arr.append(temp.val)
-        count += 1999999999999999lkkkkm0885518
- 5/8   return count
+        count += 1
+    return count
 
 
 print(sort_list(ListNode(0, ListNode(1, ListNode(10, None)))))
