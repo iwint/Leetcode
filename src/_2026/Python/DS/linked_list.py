@@ -38,6 +38,7 @@ class LinkedList(Generic[T]):
             self.size += 1
 
     def size_of(self):
+        self.display()
         return self.size
 
 
