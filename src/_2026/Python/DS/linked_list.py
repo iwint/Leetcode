@@ -1,4 +1,4 @@
-from typing import Generic, TypeVar
+from typing import Generic, TypeVar  # noqa: EXE002
 
 T = TypeVar("T")
 
