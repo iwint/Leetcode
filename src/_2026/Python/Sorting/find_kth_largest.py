@@ -1,16 +1,24 @@
-def find_kth_largest(nums: list[int], l: int, h: int, k: int) -> int:
+def find_kth_largest(nums: list[int], k: int) -> int:
 
-    if l < h:
-        partition_index = partition(nums, l, h)
-        find_kth_largest(nums, l, partition_index, k)
-        find_kth_largest(nums, partition_index + 1, h, k)
+    l = 0
+    h = len(nums) - 1
+    target = len(nums) - k
 
-    return -1
+    while l < h:
+
+        pivot_index = partition(nums, l, h)
+
+        if target <= pivot_index:
+            h = pivot_index
+        else:
+            l = pivot_index + 1
+
+    return nums[l]
 
 
 def partition(nums: list[int], l: int, h: int) -> int:
 
-    pivot = nums[l]
+    pivot = nums[(l + h)//2]
     i = l - 1
     j = h + 1
 
@@ -34,4 +42,4 @@ def partition(nums: list[int], l: int, h: int) -> int:
 if __name__ == "__main__":
     nums = [3, 2, 1, 5, 6, 4]
     k = 2
-    print(find_kth_largest(nums, 0, len(nums)-1, k))
+    print(find_kth_largest(nums, k))
